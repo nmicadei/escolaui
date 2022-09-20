@@ -5,6 +5,10 @@ import { AlunosRoutingModule } from './alunos-routing.module';
 import { ListaalunosComponent } from './listaalunos/listaalunos.component';
 import {MatCardModule} from '@angular/material/card';
 
+import {MatMenuModule} from '@angular/material/menu';
+import {MatIconModule} from '@angular/material/icon';
+
+
 
 @NgModule({
   declarations: [
@@ -13,7 +17,9 @@ import {MatCardModule} from '@angular/material/card';
   imports: [
     CommonModule,
     AlunosRoutingModule,
-    MatCardModule
+    MatCardModule,
+    MatMenuModule,
+    MatIconModule
   ]
 })
 export class AlunosModule { }
