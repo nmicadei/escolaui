@@ -1,21 +1,23 @@
-.aluno{
-  height: 15%;
-  width: 25%;
-  margin-top: 2%;
-  margin-left: 4.8rem;
-  float:left;
-  background-color: #d8d8d8;
-  border: 0.5px solid #000000;
-
-  mat-card-title{
-    margin-bottom:2rem;
-    font-size: 20pt;
-    color: #000000;
+.table{
+  width: 80%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  td{
+    padding-left: 11px;
   }
-
-  mat-card-subtitle{
-    font-size: 16pt;
-    color: #000000;
+  th{
+    padding-left: 11px;
   }
+}
 
+.cardwidth{
+  max-width: 80%;
+  --background: #fff;
+
+}
+
+.toolbar{
+  background-color: #9900ff;
 }

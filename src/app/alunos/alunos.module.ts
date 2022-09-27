@@ -7,6 +7,8 @@ import {MatCardModule} from '@angular/material/card';
 
 import {MatMenuModule} from '@angular/material/menu';
 import {MatIconModule} from '@angular/material/icon';
+import { MatTableModule } from '@angular/material/table';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 
 
@@ -17,9 +19,10 @@ import {MatIconModule} from '@angular/material/icon';
   imports: [
     CommonModule,
     AlunosRoutingModule,
+    CommonModule,
+    MatTableModule,
     MatCardModule,
-    MatMenuModule,
-    MatIconModule
+    MatToolbarModule
   ]
 })
 export class AlunosModule { }
